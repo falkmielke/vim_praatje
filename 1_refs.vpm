@@ -1,0 +1,35 @@
+# references
+
+refs:
+- https://www.vim.org
+- https://inside.github.io/vim-presentation/#/
+- https://vimschool.netlify.app/introduction/vimtutor (or type :vimtutor)
+- https://web.stanford.edu/class/cs107/resources/vim
+- https://quickref.me/vim.html
+- https://github.com/sk3pp3r/cheat-sheet-pdf/blob/master/pdf/vim-cheat-sheet.pdf
+
+exercises:
+- https://vim-adventures.com/
+- https://vim-racer.com/
+- https://www.vim-hero.com/
+
+
+videos, all levels:
+
+Chris Gregg
+- quick intro https://www.youtube.com/watch?v=xsI-pmMpfBo
+
+Derek Taylor / DistroTube
+- gentle intro https://www.youtube.com/watch?v=9wyIECjwAio
+- vim tutorial https://www.youtube.com/watch?v=ER5JYFKkYDg
+- more commands https://www.youtube.com/watch?v=13gNtgqzzmM
+
+ThePrimeagen
+- vim intro https://www.youtube.com/watch?v=X6AR2RMB5tE
+
+
+Luke Smith
+- tricks https://www.youtube.com/watch?v=hraHAZ1-RaM
+- more tricks https://www.youtube.com/watch?v=bQfFvExpZDU
+
+...

@@ -1,0 +1,109 @@
+> Chapter 2: Editing / Insert Mode
+
+
+Navigation is just the first step.
+But you haven't written a single letter, yet!
+
+There are many options to adjust text with vim.
+We will also repeat some concepts from before.
+
+INSERT MODE:
+You can enter insert mode with [i],
+and leave it with [Esc] (i.e. the Escape key)
+[Esc] always brings you back to Normal Mode.
+
+<< try writing something here in insert mode.
+
+
+Your safety belt: you can always [u] to Undo; and [Ctrl]+[r] to redo.
+> Insert extra characters to this sentence. Then undo it.
+
+
+There are many more options to enter insert mode, vim is case sensitive:
+Try to find out for yourself what [A], [a] ("append"), and [I] do.
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Ut enim ad minim veniam,
+> quis nostrud exercitation ullamco laboris nisi ut aliquip
+> ex ea commodo consequat.
+
+
+Another field of options: CHANGE [c]
+
+Try to change the word "word" by typing [cw], for "change word".
+> change this word
+
+
+Remember that you can change three words with [3cw]
+> Change will come!
+What would be the difference between [3cw] and [3cW]?
+> Word-change will come!
+
+
+You can change a whole rest of a line with [c$], same as [C]
+> Change will happen to all of us eventually.
+
+
+Change a whole line with [cc].
+> Embrace Change [c]! Sometimes, it makes sense to [cc] and start from scratch.
+
+
+Now one of my favorites.
+[ci] "CHANGE IN":
+    change everything in brackets with [ci(],
+    or change in quotes with [ci"] or [ci'],
+    remember to undo with [u] to try again.
+> message("We have to change messages 'in quotes' sometimes.")
+> sprintf("Sometimes even %s is not enough.", "that")
+
+
+If you want to delete a word, you could do [cw]+[Esc].
+Or just use [d], for DELETE!
+You guess it, you try it:
+> Delete an godverdorie unwanted word with [dw].
+> Deeeelete three letters at once with [3dl].
+> SssShorthand: you could also use [3x].
+
+
+Change the first "i" to a "e" by typing [fire].
+> Do you agree that iverybody shoult try vim.
+
+Note: [r] will REPLACE a single letter. Or five [5r].
+
+
+IMPORTANT: letters or words you delete
+    are automatically stored in "registers" (something like the clipboard).
+Task:
+1. Delete the invasive species ("Vespa") with [df,].
+2. Paste it to the list of invasive species with [P] or [p] (difference: paste before/after the cursor).
+3. Bonus: capitalize genera with [gUw]; move and REPEAT your last action with the dot [.].
+
+> Vespa velutina nigrithorax, Athene noctua, Solanum tuberosum, Rattus norvegicus, Rutilus rutilus
+> Eriocheir sinensis, Fallopia japonica, Procyon lotor
+
+
+You can apply this to whole sentences: try [dd], then [p]. Useful!
+> Go to work.
+> Get up in the morning.
+
+
+Application: what would you do to quickly switch letters? Correct the sentence!
+> fI you cacidentally wsitched eltters, sue [???].
+
+
+Of course, you can copy without deletion - we call that YANKING [y].
+> Copy these two lines with [3yy].
+> Paste them repeatedly above with [2P].
+> Press [.] twice more.
+
+> Delete the whole block with [d{].
+> And undo the deletion with [u].
+
+Good to know:
+- [C] and [Y] will change/yank the rest of the line, from the cursor.
+
+
+
+Are you beginning to see the power of vim?
+We haven't even scratched the surface :)

@@ -1,0 +1,138 @@
+> Chapter 1: Navigation / Normal Mode
+
+- do NOT use your mouse!
+- do NOT use arrow keys!
+
+
+X  <- START
+#  ________ LEVEL 1: The Yellow Brick Road __________________________
+#   Try to move your cursor along the hashtag path
+#   move south // downward with [j]
+#
+#   never leave the hashtag path
+#   try to be as quick as possible
+#
+#   move east // rightward with [l]
+#
+#####################      NOTE:
+                    #      [hjkl] move the cursor
+ west // left       #      but it gets boring...
+ with [h]           #      (we will do better.)
+                    #
+#####################
+#                       ###X <- stop here!
+# ... and north // up   #  #    then move
+#            with [k]   #  #    ten steps down
+#                       #  #    with [10j]
+#########################  #
+                           #
+NOTE:                      #
+you can precede            #
+EVERY vim command          #
+with a number              # (16 right: [16l])
+to repeat it               X###############X (6 down: [6j])
+                                           #
+                                           #
+                                           #
+                                           #
+I find this too much counting.             #
+>>> move to line end (once) with [$]       X################X
+                                                            #
+#############################################################
+#             <<< move to the line start with [0]
+#
+X  (try [$], [^] and [0] a couple of times)
+#############################################
+#
+#  if your keyboard has (curly) brackets, do [)], but careful.
+#  (otherwise [16j])
+#
+#           NOTE: all kinds of brackets [()[]{}]
+#                 skip whole paragraphs/blocks in strange ways.
+#                 I use this all the time, but not on RStudio!
+#
+#
+#
+#
+
+#  ________ LEVEL 2: Defying Gravity __________________________
+#   You can jump! (navigating words, long distance navigation)
+#   Go to the "X"; then try [w] for
+#
+####X  Word Word Word ######
+                           #
+... or Backwards with [b]  #
+                           #
+####  Back Back Back ######X
+#
+# There are subtle differences with
+# [w]/[W] (include hyphens and underscores)
+# [e]/[E] (go to the end of a word)
+#
+#  try [5E], then repeated [b] or [B]
+#####   another_word word my-word ###### ###
+#
+#                           NOTE: [wWbBeE]
+#    long distance:
+#    stand on the "X", find the letter "y"
+#    with [fy]
+###X > > > > > > > > > > > > y###
+                                #
+   backward find: [Fy]          #
+###y < < < < < < < < < < < < X###
+#
+# There are special ones:
+#
+##({ for example, try [%] for brackets here })
+#
+#
+#  That was "letter finding".
+#  Word search works with the slash [/]
+X  Search for the step by typing
+    [/#Step⮐]    (i.e. confirmed with "enter")
+    then press [n] or [N] to move to the next/previous one
+
+#Step
+
+
+#Step   now stand on "Stopper" and press [*] (quick search)
+
+#Step###Stopper
+
+                          NOTE: [fF%/nN*]
+                          BONUS: [?] will search backwards.
+#Stopper #Stopper
+
+               To finish the race, find the text "Vim is great!".
+#Stopper #STOP
+#
+#
+#
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+            # Vim is great!
+> > > > > > > > Finish < < < < < < < <
+
+Congratulations :)
+You have mastered navigation in Vim.
+
+One more trick:
+   (remember to press [N] or search "Vim is great!" to return here)
+   - [gg] will bring you to the top of the document,
+   - [G] to the bottom.
+   - but "g" is actually much more powerful, to be learned later.
+
+
+Did you note down all the shortcuts you learned?
+What did work well on AZERTY, what not?
+
+This was "Normal Mode".
+We now procede to "Chapter 2: Editing / Insert Mode".

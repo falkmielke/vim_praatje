@@ -1,0 +1,19 @@
+# key concepts
+
++ modes
+  https://www.warp.dev/terminus/vim-modes
+
++ motions
+  https://vimdoc.sourceforge.net/htmldoc/motion.html
+
++ mnemonics
+  https://stackoverflow.com/a/7411851
+
++ combinatorics (e.g. counts, repeaters, :norm)
+  https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions
+
++ registers (advanced)
+  https://www.brianstorti.com/vim-registers/
+
++ macros
+  https://www.vimfromscratch.com/articles/vim-macros
