@@ -21,7 +21,7 @@ It consists of
 
 Due to operative constraints, the workshop will happen in "RStudio", using the limited set of vim motions it offers.
 
-[RStudio vim keybindings](./rstudio_vim_keybindings.jpg)
+![RStudio vim keybindings](./rstudio_vim_keybindings.jpg)
 
 
 If you work in [`vim`](https://www.vim.org), [neovim](https://neovim.io), or other more comprehensive variants, you can work through this tutrial by opening all files as a "buffer":

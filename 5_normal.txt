@@ -1,12 +1,16 @@
 > Chapter 1: Navigation / Normal Mode
 
-- do NOT use your mouse!
-- do NOT use arrow keys!
+Open this file (5_normal.txt) in RStudio.
+Set your keyboard shortcuts to "vim"
+   (via options >>> code >>> editing >>> Keybindings)
+
+- do not use your mouse!
+- do not use arrow keys!
 
 
-X  <- START
-#  ________ LEVEL 1: The Yellow Brick Road __________________________
-#   Try to move your cursor along the hashtag path
+x  <- start
+#  ________ level 1: the yellow brick road __________________________
+#   try to move your cursor along the hashtag path
 #   move south // downward with [j]
 #
 #   never leave the hashtag path
@@ -14,29 +18,29 @@ X  <- START
 #
 #   move east // rightward with [l]
 #
-#####################      NOTE:
+#####################      note:
                     #      [hjkl] move the cursor
  west // left       #      but it gets boring...
  with [h]           #      (we will do better.)
                     #
 #####################
-#                       ###X <- stop here!
+#                       ###x <- stop here!
 # ... and north // up   #  #    then move
 #            with [k]   #  #    ten steps down
 #                       #  #    with [10j]
 #########################  #
                            #
-NOTE:                      #
+note:                      #
 you can precede            #
-EVERY vim command          #
+every vim command          #
 with a number              # (16 right: [16l])
-to repeat it               X###############X (6 down: [6j])
+to repeat it               x###############x (6 down: [6j])
                                            #
                                            #
                                            #
                                            #
-I find this too much counting.             #
->>> move to line end (once) with [$]       X################X
+i find this too much counting.             #
+>>> move to line end (once) with [$]       x################x
                                                             #
 #############################################################
 #             <<< move to the line start with [0]

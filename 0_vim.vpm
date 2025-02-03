@@ -1,3 +1,6 @@
+> vim - the text editor you cannot leave.
+BMK "praatje" by Falk; 20250206
+
 
         ________ ++     ________
        /VVVVVVVV\++++  /VVVVVVVV\
@@ -16,3 +19,9 @@
                  ++
 
 (logo by Erling Westenvik, via https://www.vim.org/images/vim.txt)
+
+
+- git clone https://github.com/falkmielke/vim_praatje.git
+- args ~/git/vim_praatje/* ?
+- distribute white paper?
+- key viewer on?
