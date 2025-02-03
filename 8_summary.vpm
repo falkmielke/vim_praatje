@@ -1,3 +1,13 @@
 > Summary
 
 What are your first thoughts on `vim`?
+
+
+> "Real Vim"
+
+Vim offers more features than what you get in the rstudio motions.
+To get you started easily, you might use a spacy vim distribution, e.g.:
+
+- https://spacevim.org
+- https://lunarvim.org
+- https://astronvim.com

@@ -1,15 +1,102 @@
 > Chapter 3: Visual Mode
 
->>> work in progress <<<
-
-DEMO! (pre-record videos?)
-
-block writing: splitting and joining sentences
-gq
-
-formatting a list of songs
-
-adjusting a markdown list of images
+DEMO! (TODO: pre-record videos?)
 
 
-registers
+>>> block writing: splitting and joining r packages
+
+remotes
+devtools
+reticulate
+tidyverse
+bookdown
+git2rdata
+arrow
+rstan
+brms
+usethis
+pkgdown
+roxygen2
+rprojroot
+
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Ut enim ad minim veniam,
+> quis nostrud exercitation ullamco laboris nisi ut aliquip
+> ex ea commodo consequat.
+
+
+Tips:
+- [f,] to find commas
+- [J] to join two lines
+- [gq] to get auto block formatting
+- [shift]+[v] to select a line
+
+
+>>> formatting a list of songs
+
+(copied from here: "https://en.wikipedia.org/wiki/Zeit_(Rammstein_album)")
+
+No.	Title	Length
+1.	"Armee der Tristen" ("Army of the Dreary Ones")	3:25
+2.	"Zeit" ("Time")	5:21
+3.	"Schwarz" ("Black")	4:18
+4.	"Giftig" ("Toxic")	3:08
+5.	"Zick Zack" ("Snip Snap")	4:04
+6.	"OK" ("Ohne Kondom" ["Without a Condom"])	4:03
+7.	"Meine Tränen" ("My Tears")	3:57
+8.	"Angst" ("Fear")	3:44
+9.	"Dicke Titten" ("Big Tits")	3:38
+10.	"L_gen" ("Lies")	3:49
+11.	"Adieu" ("Farewell")	4:39
+
+
+Tips:
+- replace (regex) all tabs for bars: `:%s/\t/ | /%g`
+- visual block mode with "[ctrl]+[v]" (or "[ctrl]+[q]" in vim)
+- `:norm I0`, `:norm vi(ohol`
+- [.] to repeat
+- macros:
+    [q]+register, e.g. [q1],
+    followed by some keystrokes
+    [q] to end recording
+    [@]+register to apply, remember counters: [3@1]
+
+
+>>> adjusting a markdown list of images
+
+Imagine you have a list of image filenames from your "figures" subfolder.
+How to get them to the syntax `![alt text](path/to/image.png "Title")`?
+
+fig-bubbletea-1.png
+fig-contour-slopeamp-1.png
+fig-correlation-matrix-1.png
+fig-difference-distance-plot-1.png
+fig-dw-regression-heavy-1.png
+fig-dw-regression-light-1.png
+fig-dw-regression-peat-1.png
+fig-dw-regression-peat-with-outliers-1.png
+fig-effect-dw-1.png
+fig-equibin-sample-size-1.png
+fig-ridges-1.png
+fig-sample-size-1.png
+fig-semivariance-difference-plot-1.png
+
+(will do this in `:!RStudio.exe %`)
+Advanced Tip:
+- send files to unix commands, e.g. `!cat % | wc -l`
+
+
+>>> advanced: registers
+
+using `:reg`
+
+- quite powerful
+- stores what you yank
+- used for macros
+
+the `+` register is what interacts with the clipboard
+
+- setting connection to clipboard is tricky
+- in rstudio, you have [y] and [ctrl]+[c]
