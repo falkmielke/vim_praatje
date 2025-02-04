@@ -30,10 +30,13 @@ rprojroot
 
 
 Tips:
-- [f,] to find commas
+- [ctrl]+[v] (RStudio) for VISUAL BLOCK mode 
+- [o] in visual mode to jump between beginning/end of selection
 - [J] to join two lines
+- [.] to repeat
+- [f,] to find commas
 - [gq] to get auto block formatting
-- [shift]+[v] to select a line
+- [shift]+[v] to select a whole line
 
 
 # formatting a list of songs
@@ -57,7 +60,7 @@ No.	Title	Length
 Tips:
 - replace (regex) all tabs for bars: `:%s/\t/ | /%g`
 - visual block mode with "[ctrl]+[v]" (or "[ctrl]+[q]" in vim)
-- `:norm I0`, `:norm vi(ohol`
+- `:norm I0`, `:norm vi(ohol` (does not work well in RStudio)
 - [.] to repeat
 - macros:
     [q]+register, e.g. [q1],
@@ -85,9 +88,9 @@ fig-ridges-1.png
 fig-sample-size-1.png
 fig-semivariance-difference-plot-1.png
 
-(will do this in `:!RStudio.exe %`)
+(will do this in `:!rstudio.exe %`)
 Advanced Tip:
-- send files to unix commands, e.g. `!cat % | wc -l`
+- send files to unix commands, e.g. `:!cat % | wc -l`
 
 
 # advanced: registers
