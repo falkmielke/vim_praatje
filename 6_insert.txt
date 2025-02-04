@@ -1,48 +1,51 @@
-> Chapter 2: Editing / Insert Mode
-
+    ________________________________________
+    --- Chapter 2: Editing / Insert Mode ---
+    ''''''''''''''''''''''''''''''''''''''''
 
 Navigation is just the first step.
-But you haven't written a single letter, yet!
+Actually, you haven't written a single letter, yet!
 
-There are many options to adjust text with vim.
+There are many options to modify text with vim.
 We will also repeat some concepts from before.
 
-INSERT MODE:
-You can enter insert mode with [i],
-and leave it with [Esc] (i.e. the Escape key)
+
+Enter     >>> INSERT MODE! <<<
+You can do so by typing [i], as in "insert".
+You go back to "normal mode" with [Esc] (i.e. the Escape key)
 [Esc] always brings you back to Normal Mode.
 
 << try writing something here in insert mode.
 
 
-Your safety belt: you can always [u] to Undo; and [Ctrl]+[r] to redo.
+Your safety belt: you can always [u] to Undo; or [Ctrl]+[r] to redo.
 > Insert extra characters to this sentence. Then undo it.
 
 
 There are many more options to enter insert mode, vim is case sensitive:
 Try to find out for yourself what [A], [a] ("append"), and [I] do.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 > sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 > Ut enim ad minim veniam,
 > quis nostrud exercitation ullamco laboris nisi ut aliquip
 > ex ea commodo consequat.
 
 
-Another field of options: CHANGE [c]
+Another vast field of options: CHANGE [c]
 
 Try to change the word "word" by typing [cw], for "change word".
 > change this word
 
 
-Remember that you can change three words with [3cw]
+Remember that you can change three words with [3cw]: 
+    how about changing for "INBO is great!"?
 > Change will come!
 What would be the difference between [3cw] and [3cW]?
 > Word-change will come!
 
 
 You can change a whole rest of a line with [c$], same as [C]
-> Change will happen to all of us eventually.
+> Everyone will learn vim eventually.
 
 
 Change a whole line with [cc].
@@ -69,15 +72,17 @@ You guess it, you try it:
 Change the first "i" to a "e" by typing [fire].
 > Do you agree that iverybody shoult try vim.
 
+[fire] translates to: "find `i`, replace by `e`".
 Note: [r] will REPLACE a single letter. Or five [5r].
 
 
-IMPORTANT: letters or words you delete
+IMPORTANT: letters or words you [d]elete
     are automatically stored in "registers" (something like the clipboard).
-Task:
-1. Delete the invasive species ("Vespa") with [df,].
-2. Paste it to the list of invasive species with [P] or [p] (difference: paste before/after the cursor).
-3. Bonus: capitalize genera with [gUw]; move and REPEAT your last action with the dot [.].
+Task: In the two lines below,
+1. Delete the invasive species ("Vespa") with [df,]. Do not fix the space yet.
+2. Immediately paste it to the list of invasive species 
+      with [P] or [p] (difference: paste before/after the cursor).
+3. Bonus exercise: capitalize genera with [gUw]; move and REPEAT your last action with the dot [.].
 
 > Vespa velutina nigrithorax, Athene noctua, Solanum tuberosum, Rattus norvegicus, Rutilus rutilus
 > Eriocheir sinensis, Fallopia japonica, Procyon lotor
@@ -86,6 +91,8 @@ Task:
 You can apply this to whole sentences: try [dd], then [p]. Useful!
 > Go to work.
 > Get up in the morning.
+> Start to write and essay.
+> Have a coffee.
 
 
 Application: what would you do to quickly switch letters? Correct the sentence!
@@ -93,7 +100,7 @@ Application: what would you do to quickly switch letters? Correct the sentence!
 
 
 Of course, you can copy without deletion - we call that YANKING [y].
-> Copy these two lines with [3yy].
+> Copy these three lines with [3yy].
 > Paste them repeatedly above with [2P].
 > Press [.] twice more.
 
@@ -105,5 +112,5 @@ Good to know:
 
 
 
-Are you beginning to see the power of vim?
+Are you beginning to appreciate the power of vim?
 We haven't even scratched the surface :)

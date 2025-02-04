@@ -1,4 +1,6 @@
-> Chapter 1: Navigation / Normal Mode
+    ___________________________________________
+    --- Chapter 1: Navigation / Normal Mode ---
+    '''''''''''''''''''''''''''''''''''''''''''
 
 Open this file (5_normal.txt) in RStudio.
 Set your keyboard shortcuts to "vim"
@@ -12,9 +14,9 @@ x  <- start
 #  ________ level 1: the yellow brick road __________________________
 #   try to move your cursor along the hashtag path
 #   move south // downward with [j]
-#
-#   never leave the hashtag path
-#   try to be as quick as possible
+#                                         |if screen space gets tight
+#   never leave the hashtag path          |press [zz] or [zt]
+#   try to be as quick as possible        |to scroll (center cursor).
 #
 #   move east // rightward with [l]
 #
@@ -24,7 +26,7 @@ x  <- start
  with [h]           #      (we will do better.)
                     #
 #####################
-#                       ###x <- stop here!
+#                       ###x <- STOP here!
 # ... and north // up   #  #    then move
 #            with [k]   #  #    ten steps down
 #                       #  #    with [10j]
@@ -34,8 +36,8 @@ note:                      #
 you can precede            #
 every vim command          #
 with a number              # (16 right: [16l])
-to repeat it               x###############x (6 down: [6j])
-                                           #
+ ("counter")               x###############x (6 down: [6j])
+to repeat it                               #
                                            #
                                            #
                                            #
@@ -61,7 +63,7 @@ X  (try [$], [^] and [0] a couple of times)
 
 #  ________ LEVEL 2: Defying Gravity __________________________
 #   You can jump! (navigating words, long distance navigation)
-#   Go to the "X"; then try [w] for
+#   Go to the "X"; then try [w] for "word"
 #
 ####X  Word Word Word ######
                            #
@@ -73,17 +75,17 @@ X  (try [$], [^] and [0] a couple of times)
 # [w]/[W] (include hyphens and underscores)
 # [e]/[E] (go to the end of a word)
 #
-#  try [5E], then repeated [b] or [B]
-#####   another_word word my-word ###### ###
+#  try [5E], then repeated [b] or [B], [e] or [E]
+#####   another_word word my-word ###### ### End.
 #
 #                           NOTE: [wWbBeE]
 #    long distance:
 #    stand on the "X", find the letter "y"
 #    with [fy]
-###X > > > > > > > > > > > > y###
-                                #
-   backward find: [Fy]          #
-###y < < < < < < < < < < < < X###
+###X > > > > > > > > > > > > y#y#     |Note how [fyf]
+                                #     |will jump you
+   backward find: [Fy]          #     |two "y"s ahead.
+#y#y < < < < < < < < < < < < X###
 #
 # There are special ones:
 #
@@ -97,11 +99,11 @@ X  Search for the step by typing
     then press [n] or [N] to move to the next/previous one
 
 #Step
+             (remember that you can [zz] to look ahead)
 
-
-#Step   now stand on "Stopper" and press [*] (quick search)
-
-#Step###Stopper
+#Step   
+           ⬐ now stand on "Stopper" and press [*] (quick search)
+#Step###Stopper           [n] and [N] bring you back and forth.
 
                           NOTE: [fF%/nN*]
                           BONUS: [?] will search backwards.
@@ -139,4 +141,4 @@ Did you note down all the shortcuts you learned?
 What did work well on AZERTY, what not?
 
 This was "Normal Mode".
-We now procede to "Chapter 2: Editing / Insert Mode".
+We now proceed to "Chapter 2: Editing / Insert Mode".

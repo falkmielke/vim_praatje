@@ -1,13 +1,21 @@
-# Why vim?
+    ________________
+    --- Why vim? ---
+    ''''''''''''''''
 
-> "Being where you want at the speed of thought."
+> "Being where you want at the speed of thought."(^)
 
-You can do anything in three keystrokes!
+
+You can do anything in about three keystrokes!
+
+vim is...
+- ergonomic!
+- efficient!
+- intuitive!
+
 - ~100 year old (released 1991, to be more specific)
-- well established
-- ergonomic
-- efficient
+- well established, good code base (*)
 - universal (text editor, browser, OS...)
 
 
-Main author: Bram Moolenaar (https://nl.wikipedia.org/wiki/Bram_Moolenaar)
+(*) Main author: Bram Moolenaar (https://nl.wikipedia.org/wiki/Bram_Moolenaar)
+(^) quote from one of the youtube videos (see refs)

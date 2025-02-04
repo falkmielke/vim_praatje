@@ -1,9 +1,13 @@
-> Summary
+    _______________
+    --- Summary ---
+    '''''''''''''''
+
+# Feedback
 
 What are your first thoughts on `vim`?
 
 
-> "Real Vim"
+# "Real Vim"
 
 Vim offers more features than what you get in the rstudio motions.
 To get you started easily, you might use a spacy vim distribution, e.g.:
@@ -11,3 +15,9 @@ To get you started easily, you might use a spacy vim distribution, e.g.:
 - https://spacevim.org
 - https://lunarvim.org
 - https://astronvim.com
+
+
+# Thank you!
+
+Thank you for attending.
+Enjoy typing :)

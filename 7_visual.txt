@@ -1,9 +1,11 @@
-> Chapter 3: Visual Mode
+    ______________________________
+    --- Chapter 3: Visual Mode ---
+    ''''''''''''''''''''''''''''''
 
 DEMO! (TODO: pre-record videos?)
 
 
->>> block writing: splitting and joining r packages
+# block writing: splitting and joining r packages
 
 remotes
 devtools
@@ -34,7 +36,7 @@ Tips:
 - [shift]+[v] to select a line
 
 
->>> formatting a list of songs
+# formatting a list of songs
 
 (copied from here: "https://en.wikipedia.org/wiki/Zeit_(Rammstein_album)")
 
@@ -64,7 +66,7 @@ Tips:
     [@]+register to apply, remember counters: [3@1]
 
 
->>> adjusting a markdown list of images
+# adjusting a markdown list of images
 
 Imagine you have a list of image filenames from your "figures" subfolder.
 How to get them to the syntax `![alt text](path/to/image.png "Title")`?
@@ -88,7 +90,7 @@ Advanced Tip:
 - send files to unix commands, e.g. `!cat % | wc -l`
 
 
->>> advanced: registers
+# advanced: registers
 
 using `:reg`
 
