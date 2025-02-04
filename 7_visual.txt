@@ -2,7 +2,7 @@
     --- Chapter 3: Visual Mode ---
     ''''''''''''''''''''''''''''''
 
-DEMO! (TODO: pre-record videos?)
+DEMO! (see videos in folder `7_visual_videos`)
 
 
 # block writing: splitting and joining r packages
