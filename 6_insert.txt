@@ -3,22 +3,26 @@
     ''''''''''''''''''''''''''''''''''''''''
 
 Navigation is just the first step.
-Actually, you haven't written a single letter, yet!
+We have pressed many keys, but actually 
+we haven't written a single letter, yet!
 
-There are many options to modify text with vim.
-We will also repeat some concepts from before.
+Fortunately, there are many options to modify text with vim.
+On the way, we will repeat some of the concepts.
 
 
 Enter     >>> INSERT MODE! <<<
 You can do so by typing [i], as in "insert".
+(See how the cursor changes...)
 You go back to "normal mode" with [Esc] (i.e. the Escape key)
-[Esc] always brings you back to Normal Mode.
+
+   --> [Esc] always brings you back to Normal Mode.
 
 << try writing something here in insert mode.
 
 
-Your safety belt: you can always [u] to Undo; or [Ctrl]+[r] to redo.
-> Insert extra characters to this sentence. Then undo it.
+Your safety belt: 
+you can always [u] to Undo; or [Ctrl]+[r] to redo what you undid.
+> Insert extra characters somewh in this sentence. Then undo it.
 
 
 There are many more options to enter insert mode, vim is case sensitive:
@@ -31,6 +35,9 @@ Try to find out for yourself what [A], [a] ("append"), and [I] do.
 > ex ea commodo consequat.
 
 
+(By the way: did you note down those shortcuts on your personal cheat sheet?)
+
+
 Another vast field of options: CHANGE [c]
 
 Try to change the word "word" by typing [cw], for "change word".
@@ -38,13 +45,14 @@ Try to change the word "word" by typing [cw], for "change word".
 
 
 Remember that you can change three words with [3cw]: 
-    how about changing for "INBO is great!"?
+    how about changing the following into "I was here!" or "INBO is great!"?
 > Change will come!
+
 What would be the difference between [3cw] and [3cW]?
 > Word-change will come!
 
 
-You can change a whole rest of a line with [c$], same as [C]
+You can change a whole rest of a line with [c$], same as [C].
 > Everyone will learn vim eventually.
 
 
@@ -61,8 +69,10 @@ Now one of my favorites.
 > sprintf("Sometimes even %s is not enough.", "that")
 
 
-If you want to delete a word, you could do [cw]+[Esc].
-Or just use [d], for DELETE!
+Did you note how you enter INSERT mode when you change something?
+You can escape it to normal mode.
+Thus, if you want to delete a word, you could do [cw]+[Esc].
+Or just use [d], for Delete!
 You guess it, you try it:
 > Delete an godverdorie unwanted word with [dw].
 > Deeeelete three letters at once with [3dl].
@@ -70,19 +80,20 @@ You guess it, you try it:
 
 
 Change the first "i" to a "e" by typing [fire].
-> Do you agree that iverybody shoult try vim.
+> Do you agree that iverybody shoult try vim?
 
 [fire] translates to: "find `i`, replace by `e`".
-Note: [r] will REPLACE a single letter. Or five [5r].
+Note: [r] will REPLACE a single letter. Or five ([5r]).
 
 
 IMPORTANT: letters or words you [d]elete
     are automatically stored in "registers" (something like the clipboard).
 Task: In the two lines below,
 1. Delete the invasive species ("Vespa") with [df,]. Do not fix the space yet.
-2. Immediately paste it to the list of invasive species 
+2. Immediately paste it to the front of the list of invasive species 
       with [P] or [p] (difference: paste before/after the cursor).
-3. Bonus exercise: capitalize genera with [gUw]; move and REPEAT your last action with the dot [.].
+3. Bonus exercise: capitalize whole genera with [gUw]; move [wwww]
+     and then REPEAT your last action with the dot [.].
 
 > Vespa velutina nigrithorax, Athene noctua, Solanum tuberosum, Rattus norvegicus, Rutilus rutilus
 > Eriocheir sinensis, Fallopia japonica, Procyon lotor
@@ -95,7 +106,8 @@ You can apply this to whole sentences: try [dd], then [p]. Useful!
 > Have a coffee.
 
 
-Application: what would you do to quickly switch letters? Correct the sentence!
+Application: what would you do to quickly switch letters? 
+Please correct the following sentence and replace the question marks by the correct vim motion!
 > fI you cacidentally wsitched eltters, sue [???].
 
 

@@ -63,7 +63,7 @@ X  (try [$], [^] and [0] a couple of times)
 
 #  ________ LEVEL 2: Defying Gravity __________________________
 #   You can jump! (navigating words, long distance navigation)
-#   Go to the "X"; then try [w] for "word"
+#   Move your cursor to the "X"; then try [w] for "word"
 #
 ####X  Word Word Word ######
                            #
@@ -130,15 +130,17 @@ X  Search for the step by typing
 Congratulations :)
 You have mastered navigation in Vim.
 
-One more trick:
+Some more tricks:
    (remember to press [N] or search "Vim is great!" to return here)
    - [gg] will bring you to the top of the document,
    - [G] to the bottom.
    - but "g" is actually much more powerful, to be learned later.
+   - (For example, [gd] and [gD] should bring you to function definitions
+      but unfortunately that does not work in RStudio.)
 
 
 Did you note down all the shortcuts you learned?
 What did work well on AZERTY, what not?
 
 This was "Normal Mode".
-We now proceed to "Chapter 2: Editing / Insert Mode".
+We now proceed to "Chapter 2: Editing / Insert Mode" (file "6_insert.txt").

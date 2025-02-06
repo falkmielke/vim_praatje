@@ -9,17 +9,29 @@ DEMO! (see videos in folder `7_visual_videos`)
 
 remotes
 devtools
+usethis
 reticulate
 tidyverse
 bookdown
 git2rdata
+devtools
 arrow
 rstan
 brms
 usethis
 pkgdown
 roxygen2
+roxygen2
 rprojroot
+devtools
+
+
+Try these:
+- [ctrl]+[v] (RStudio) for VISUAL BLOCK mode 
+- [shift]+[v] to select a whole line
+- [:sort⮐] to sort lines
+- [:sort u⮐] to remove duplicates
+- [o] in visual mode to jump between beginning/end of selection (e.g. to extend)
 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -30,13 +42,10 @@ rprojroot
 
 
 Tips:
-- [ctrl]+[v] (RStudio) for VISUAL BLOCK mode 
-- [o] in visual mode to jump between beginning/end of selection
 - [J] to join two lines
 - [.] to repeat
 - [f,] to find commas
 - [gq] to get auto block formatting
-- [shift]+[v] to select a whole line
 
 
 # formatting a list of songs
@@ -94,7 +103,7 @@ Advanced Tip:
 - send files to unix commands, e.g. `:!cat % | wc -l`
 
 
-# advanced: registers
+# honorary mention: registers
 
 using `:reg`
 
