@@ -41,20 +41,21 @@ Tips:
 
 # formatting a list of songs
 
-(copied from here: "https://en.wikipedia.org/wiki/Zeit_(Rammstein_album)")
+(copied from here: "https://en.wikipedia.org/wiki/Bat_Out_of_Hell_II%3A_Back_into_Hell")
 
-No.	Title	Length
-1.	"Armee der Tristen" ("Army of the Dreary Ones")	3:25
-2.	"Zeit" ("Time")	5:21
-3.	"Schwarz" ("Black")	4:18
-4.	"Giftig" ("Toxic")	3:08
-5.	"Zick Zack" ("Snip Snap")	4:04
-6.	"OK" ("Ohne Kondom" ["Without a Condom"])	4:03
-7.	"Meine Tränen" ("My Tears")	3:57
-8.	"Angst" ("Fear")	3:44
-9.	"Dicke Titten" ("Big Tits")	3:38
-10.	"L_gen" ("Lies")	3:49
-11.	"Adieu" ("Farewell")	4:39
+No.	Title	Vocals	Length
+1.	"I'd Do Anything for Love (But I Won't Do That)"	uncredited guest vocals by Lorraine Crosby	12:01
+2.	"Life Is a Lemon and I Want My Money Back"	 	8:00
+3.	"Rock and Roll Dreams Come Through"	 	5:51
+4.	"It Just Won't Quit"	 	7:21
+5.	"Out of the Frying Pan (And into the Fire)"	 	7:24
+6.	"Objects in the Rear View Mirror May Appear Closer Than They Are"	 	10:16
+7.	"Wasted Youth"	Steinman	2:41
+8.	"Everything Louder than Everything Else"	 	8:00
+9.	"Good Girls Go to Heaven (Bad Girls Go Everywhere)"	 	6:53
+10.	"Back into Hell"	 	2:46
+11.	"Lost Boys and Golden Girls"	 	4:20
+Total length:	75:38
 
 
 Tips:
