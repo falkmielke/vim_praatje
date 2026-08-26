@@ -22,7 +22,7 @@ To get you started easily, you might use a spacy vim distribution, e.g.:
 
 - vim addon for your browser https://github.com/philc/vimium
 - or go "qutebrowser" https://qutebrowser.org
-- terminal file managers https://itsfoss.com/terminal-file-managers
+- terminal file managers https://itsfoss.com/terminal-file-managers -> e.g. https://yazi-rs.github.io
 - bulkrename, e.g. https://github.com/nimaipatel/brn
 - email: neomutt https://neomutt.org
 - emacs EVIL mode https://www.emacswiki.org/emacs/Evil
